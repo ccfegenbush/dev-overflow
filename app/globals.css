@@ -400,8 +400,6 @@ code {
   overflow-y: auto !important;
 }
 
-
-
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -473,8 +471,6 @@ code {
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
 }
-
-
 
 @layer base {
   * {
