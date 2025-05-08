@@ -1,4 +1,4 @@
-import { errorToJSON } from "next/dist/server/render";
+// import { errorToJSON } from "next/dist/server/render";
 import { NextResponse } from "next/server";
 import { ZodError } from "zod";
 
@@ -17,7 +17,7 @@ const formatResponse = (
     success: false,
     error: {
       message,
-      details: errorToJSON,
+      details: errors,
     },
   };
 
